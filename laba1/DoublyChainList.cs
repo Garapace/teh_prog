@@ -6,26 +6,30 @@ using System.Threading.Tasks;
 
 namespace laba1
 {
-    internal class ChainList
+    internal class DoublyChainList
     {
         private class Node
         {
             public int Data { set; get; }
             public Node Next { set; get; }
+            public Node Prev { set; get; }
 
-            public Node(int data, Node next)
+            public Node(int data, Node next, Node prev)
             {
                 Data = data;
                 Next = next;
+                Prev = prev;
             }
         }
 
         private Node head;
+        private Node tail;
         private int quantity;
 
-        public ChainList()
+        public DoublyChainList()
         {
             head = null;
+            tail = null;
             quantity = 0;
         }
 
@@ -33,6 +37,32 @@ namespace laba1
         {
             if (index < 0 || index >= quantity) { return null; }
 
+            int StartIndex = 0;
+            int EndIndex = quantity - 1;
+
+            while (StartIndex <= EndIndex)
+            {
+                int MidIndex = StartIndex + (EndIndex - StartIndex) / 2;
+                Node CurrentNode = GetNode(MidIndex);
+
+                if (MidIndex == index)
+                {
+                    return CurrentNode;
+                }
+                else if (MidIndex < index)
+                {
+                    StartIndex = MidIndex + 1;
+                }
+                else
+                {
+                    EndIndex = MidIndex - 1;
+                }
+            }
+            return null;
+        }
+
+        private Node GetNode(int index)
+        {
             int i = 0;
             Node CurrentNode = head;
             while (CurrentNode != null && i < index)
@@ -41,19 +71,19 @@ namespace laba1
                 i++;
             }
 
-            if (i == index) { return CurrentNode; }
-            else { return null; }
+            return CurrentNode;
         }
 
         public void Add(int digit)
         {
-            Node NewNode = new Node(digit, null);
+            Node NewNode = new Node(digit, null, null);
 
             if (head == null) { head = NewNode; }
             else
             {
                 Node tail = Find(quantity - 1);
                 tail.Next = NewNode;
+                NewNode.Prev = tail;
             }
             quantity++;
         }
@@ -63,16 +93,22 @@ namespace laba1
             if (index < 0 || index > quantity) { Console.WriteLine("Индекс вне диапазона"); return; }
             if (index == 0)
             {
-                Node NewNode = new Node(digit, null);
-                NewNode.Next = head;
+                Node NewNode = new Node(digit, head, null);
+                if (head != null)
+                {
+                    head.Prev = NewNode; // Устанавливаем новый элемент как предыдущий для головного
+                }
                 head = NewNode;
             }
             else
             {
                 Node CurrentNode = Find(index - 1);
-                Node NewNode = new Node(digit, null);
-                NewNode.Next = CurrentNode.Next;
+                Node NewNode = new Node(digit, CurrentNode.Next, CurrentNode);
                 CurrentNode.Next = NewNode;
+                if (NewNode.Next != null)
+                {
+                    NewNode.Next.Prev = NewNode; // Устанавливаем новый элемент как предыдущий для следующего элемента
+                }
             }
             quantity++;
         }
@@ -80,19 +116,24 @@ namespace laba1
         public void Delete(int index)
         {
             if (index < 0 || index >= quantity) { Console.WriteLine("Индекс вне диапазона"); return; }
-            if (index == 0 && head != null)
+            if (index == 0)
             {
                 head = head.Next;
+                if (head != null)
+                {
+                    head.Prev = null; // Снимаем связь с предыдущего элемента
+                }
                 quantity--;
-                return;
             }
-
-            Node PreviousNode = Find(index - 1);
-            Node CurrentNode = Find(index);
-
-            if (CurrentNode != null)
+            else
             {
-                PreviousNode.Next = CurrentNode.Next;
+                Node currentNode = Find(index);
+                Node previousNode = currentNode.Prev;
+                previousNode.Next = currentNode.Next;
+                if (currentNode.Next != null)
+                {
+                    currentNode.Next.Prev = previousNode; // Изменяем ссылку на предыдущий узел для следующего элемента
+                }
                 quantity--;
             }
         }
@@ -100,6 +141,7 @@ namespace laba1
         public void Clear()
         {
             head = null;
+            tail = null;
             quantity = 0;
         }
 
