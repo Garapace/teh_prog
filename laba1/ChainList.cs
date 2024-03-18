@@ -23,12 +23,6 @@ namespace laba1
         private Node head;
         private int quantity;
 
-        public ChainList()
-        {
-            head = null;
-            quantity = 0;
-        }
-
         private Node Find(int index)
         {
             if (index < 0 || index >= quantity) { return null; }
@@ -45,11 +39,11 @@ namespace laba1
             else { return null; }
         }
 
-        public void Add(int digit)
+        public void Add(int digit) 
         {
             Node NewNode = new Node(digit, null);
 
-            if (head == null) { head = NewNode; }
+            if (head == null) { head = NewNode; } // проверка что голова не ведёт в null
             else
             {
                 Node tail = Find(quantity - 1);

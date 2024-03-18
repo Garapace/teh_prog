@@ -11,12 +11,6 @@ namespace laba1
         private int[] buffer;
         private int quantity = 0;
 
-        public ArrayList()
-        {
-            quantity = 0;
-            buffer = new int[4];
-        }
-
         private void Expanding() // метод расширения списка
         {
             if (buffer == null) // если список пустой, добавляем ему одну ячейку
@@ -42,7 +36,7 @@ namespace laba1
 
         public void Add(int digit) // метод добавления элемента в конец списка, на вход подаётся число
         {
-            if (buffer.Length == quantity) { Expanding(); }
+            Expanding();
             buffer[quantity] = digit; // в список в ячейку с индексом quantity (кол-во элементов в это списке) присваивается поданное на вход метода число
             quantity++; // увеличение кол-ва эл-тов на один
         }
@@ -53,7 +47,7 @@ namespace laba1
 
             if (index == quantity) { Add(digit); return; } // если поданный индекс совпадает с кол-вом эл-ов, то идём в метод Add()
 
-            if (buffer.Length == quantity) { Expanding(); }
+            Expanding();
 
             for (int i = quantity; i > index; i--)
             {

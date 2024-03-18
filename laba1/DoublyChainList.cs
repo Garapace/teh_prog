@@ -26,13 +26,6 @@ namespace laba1
         private Node tail;
         private int quantity;
 
-        public DoublyChainList()
-        {
-            head = null;
-            tail = null;
-            quantity = 0;
-        }
-
         private Node Find(int index)
         {
             if (index < 0 || index >= quantity) { return null; }
@@ -127,12 +120,12 @@ namespace laba1
             }
             else
             {
-                Node currentNode = Find(index);
-                Node previousNode = currentNode.Prev;
-                previousNode.Next = currentNode.Next;
-                if (currentNode.Next != null)
+                Node СurrentNode = Find(index);
+                Node PrevNode = СurrentNode.Prev;
+                PrevNode.Next = СurrentNode.Next;
+                if (СurrentNode.Next != null)
                 {
-                    currentNode.Next.Prev = previousNode; // Изменяем ссылку на предыдущий узел для следующего элемента
+                    СurrentNode.Next.Prev = PrevNode; // Изменяем ссылку на предыдущий узел для следующего элемента
                 }
                 quantity--;
             }
