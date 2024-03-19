@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Coding\\C#\\teh_prog\\laba1\\laba1.csproj": {}
+    "D:\\Coding\\C#\\teh_prog\\labs\\laba1\\laba1.csproj": {}
   },
   "projects": {
-    "D:\\Coding\\C#\\teh_prog\\laba1\\laba1.csproj": {
+    "D:\\Coding\\C#\\teh_prog\\labs\\laba1\\laba1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Coding\\C#\\teh_prog\\laba1\\laba1.csproj",
+        "projectUniqueName": "D:\\Coding\\C#\\teh_prog\\labs\\laba1\\laba1.csproj",
         "projectName": "laba1",
-        "projectPath": "D:\\Coding\\C#\\teh_prog\\laba1\\laba1.csproj",
+        "projectPath": "D:\\Coding\\C#\\teh_prog\\labs\\laba1\\laba1.csproj",
         "packagesPath": "C:\\Users\\uncurs\\.nuget\\packages\\",
-        "outputPath": "D:\\Coding\\C#\\teh_prog\\laba1\\obj\\",
+        "outputPath": "D:\\Coding\\C#\\teh_prog\\labs\\laba1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Programs\\Microsoft\\Microsoft Visual Studio\\Shared\\NuGetPackages"
