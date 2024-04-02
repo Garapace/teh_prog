@@ -1,0 +1,15 @@
+D:\Coding\C#\teh_prog\laba1\obj\Debug\net8.0\laba1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Coding\C#\teh_prog\laba1\obj\Debug\net8.0\laba1.AssemblyInfoInputs.cache
+D:\Coding\C#\teh_prog\laba1\obj\Debug\net8.0\laba1.AssemblyInfo.cs
+D:\Coding\C#\teh_prog\laba1\obj\Debug\net8.0\laba1.csproj.CoreCompileInputs.cache
+D:\Coding\C#\teh_prog\laba1\bin\Debug\net8.0\laba1.exe
+D:\Coding\C#\teh_prog\laba1\bin\Debug\net8.0\laba1.deps.json
+D:\Coding\C#\teh_prog\laba1\bin\Debug\net8.0\laba1.runtimeconfig.json
+D:\Coding\C#\teh_prog\laba1\bin\Debug\net8.0\laba1.dll
+D:\Coding\C#\teh_prog\laba1\bin\Debug\net8.0\laba1.pdb
+D:\Coding\C#\teh_prog\laba1\obj\Debug\net8.0\laba1.dll
+D:\Coding\C#\teh_prog\laba1\obj\Debug\net8.0\refint\laba1.dll
+D:\Coding\C#\teh_prog\laba1\obj\Debug\net8.0\laba1.pdb
+D:\Coding\C#\teh_prog\laba1\obj\Debug\net8.0\laba1.genruntimeconfig.cache
+D:\Coding\C#\teh_prog\laba1\obj\Debug\net8.0\ref\laba1.dll
+D:\Coding\C#\teh_prog\laba1\obj\Debug\net8.0\laba1.sourcelink.json

@@ -1,0 +1,96 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Coding\\C#\\teh_prog\\labs\\laba1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{91898496-2D4F-4B47-B3F3-40EB2EDDE073}|laba1.csproj|d:\\coding\\c#\\teh_prog\\labs\\laba1\\doublychainlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91898496-2D4F-4B47-B3F3-40EB2EDDE073}|laba1.csproj|solutionrelative:doublychainlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91898496-2D4F-4B47-B3F3-40EB2EDDE073}|laba1.csproj|d:\\coding\\c#\\teh_prog\\labs\\laba1\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91898496-2D4F-4B47-B3F3-40EB2EDDE073}|laba1.csproj|solutionrelative:main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91898496-2D4F-4B47-B3F3-40EB2EDDE073}|laba1.csproj|d:\\coding\\c#\\teh_prog\\labs\\laba1\\chainlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91898496-2D4F-4B47-B3F3-40EB2EDDE073}|laba1.csproj|solutionrelative:chainlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91898496-2D4F-4B47-B3F3-40EB2EDDE073}|laba1.csproj|d:\\coding\\c#\\teh_prog\\labs\\laba1\\arraylist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91898496-2D4F-4B47-B3F3-40EB2EDDE073}|laba1.csproj|solutionrelative:arraylist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 197,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Main.cs",
+              "DocumentMoniker": "D:\\Coding\\C#\\teh_prog\\labs\\laba1\\Main.cs",
+              "RelativeDocumentMoniker": "Main.cs",
+              "ToolTip": "D:\\Coding\\C#\\teh_prog\\labs\\laba1\\Main.cs",
+              "RelativeToolTip": "Main.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAgwDUAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T13:32:28.896Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ArrayList.cs",
+              "DocumentMoniker": "D:\\Coding\\C#\\teh_prog\\labs\\laba1\\ArrayList.cs",
+              "RelativeDocumentMoniker": "ArrayList.cs",
+              "ToolTip": "D:\\Coding\\C#\\teh_prog\\labs\\laba1\\ArrayList.cs",
+              "RelativeToolTip": "ArrayList.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAgwBAAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T13:32:23.93Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ChainList.cs",
+              "DocumentMoniker": "D:\\Coding\\C#\\teh_prog\\labs\\laba1\\ChainList.cs",
+              "RelativeDocumentMoniker": "ChainList.cs",
+              "ToolTip": "D:\\Coding\\C#\\teh_prog\\labs\\laba1\\ChainList.cs",
+              "RelativeToolTip": "ChainList.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAIwBcAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T13:32:20.134Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DoublyChainList.cs",
+              "DocumentMoniker": "D:\\Coding\\C#\\teh_prog\\labs\\laba1\\DoublyChainList.cs",
+              "RelativeDocumentMoniker": "DoublyChainList.cs",
+              "ToolTip": "D:\\Coding\\C#\\teh_prog\\labs\\laba1\\DoublyChainList.cs",
+              "RelativeToolTip": "DoublyChainList.cs",
+              "ViewState": "AQIAADcAAAAAAAAAAAAAwD0AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T09:58:31.682Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

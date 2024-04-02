@@ -1,0 +1,98 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Coding\\C#\\teh_prog\\laba2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E455F87F-90D0-4764-92B5-52E60147D86D}|laba2.csproj|d:\\coding\\c#\\teh_prog\\laba2\\chainlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E455F87F-90D0-4764-92B5-52E60147D86D}|laba2.csproj|solutionrelative:chainlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E455F87F-90D0-4764-92B5-52E60147D86D}|laba2.csproj|d:\\coding\\c#\\teh_prog\\laba2\\baselist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E455F87F-90D0-4764-92B5-52E60147D86D}|laba2.csproj|solutionrelative:baselist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E455F87F-90D0-4764-92B5-52E60147D86D}|laba2.csproj|d:\\coding\\c#\\teh_prog\\laba2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E455F87F-90D0-4764-92B5-52E60147D86D}|laba2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E455F87F-90D0-4764-92B5-52E60147D86D}|laba2.csproj|d:\\coding\\c#\\teh_prog\\laba2\\arraylist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E455F87F-90D0-4764-92B5-52E60147D86D}|laba2.csproj|solutionrelative:arraylist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 205,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Coding\\C#\\teh_prog\\laba2\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Coding\\C#\\teh_prog\\laba2\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwAwAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T12:05:52.397Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ArrayList.cs",
+              "DocumentMoniker": "D:\\Coding\\C#\\teh_prog\\laba2\\ArrayList.cs",
+              "RelativeDocumentMoniker": "ArrayList.cs",
+              "ToolTip": "D:\\Coding\\C#\\teh_prog\\laba2\\ArrayList.cs",
+              "RelativeToolTip": "ArrayList.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwF0AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T12:07:22.382Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ChainList.cs",
+              "DocumentMoniker": "D:\\Coding\\C#\\teh_prog\\laba2\\ChainList.cs",
+              "RelativeDocumentMoniker": "ChainList.cs",
+              "ToolTip": "D:\\Coding\\C#\\teh_prog\\laba2\\ChainList.cs",
+              "RelativeToolTip": "ChainList.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAIwBwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T12:07:51.535Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BaseList.cs",
+              "DocumentMoniker": "D:\\Coding\\C#\\teh_prog\\laba2\\BaseList.cs",
+              "RelativeDocumentMoniker": "BaseList.cs",
+              "ToolTip": "D:\\Coding\\C#\\teh_prog\\laba2\\BaseList.cs",
+              "RelativeToolTip": "BaseList.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAuwD4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T12:10:37.704Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
